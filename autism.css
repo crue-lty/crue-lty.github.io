@@ -4,6 +4,9 @@ body {
     color: #c2c1f7;
     font-family: 'Courier New', Courier, monospace;
 }
+div div {
+    text-align: center;
+}
 .picture {
     width: 500px;
 }

@@ -1,0 +1,47 @@
+.divSc {
+    font-style: italic;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img {
+    border-color: rgb(48, 14, 1);
+    border-style: solid;
+    box-shadow: 5px 5px 10px rgb(48, 14, 1);
+    height: 300px;
+}
+
+.img-anim {
+    height: 300px;
+    transition: width 2s;
+}
+
+
+
+body {
+    background-attachment: fixed;
+    background-image: linear-gradient(brown, orange);
+    color: #1f0c02;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+test {
+    color: red;
+    text-align: right;
+}
+
+h1 {
+    color: #421205;
+}
+
+h2 { 
+    color: #742204;
+}
+
+strong {
+    color: #f7c984;
+}

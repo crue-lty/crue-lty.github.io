@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>My first website</title>
+		<link rel="stylesheet" href="./corvids.css">
+		<body onload="startTime()"></body>
+		<script>
+			function startTime() {
+			const today = new Date();
+			let month = today.getDate();
+			let d = today.getDate();
+			let h = today.getHours();
+			let m = today.getMinutes();
+			let s = today.getSeconds();
+			month = checkTime(month);
+			d = checkTime(d);
+			h = checkTime(h);
+			m = checkTime(m);
+			s = checkTime(s);
+			document.getElementById('clock').innerHTML =  "Today is " + month + " " + d + " " + h + ":" + m + ":" + s;
+			}
+			setInterval(startTime, 1000);
+			function checkTime(i) {
+			if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+			return i;
+			}
+		</script>
+	</head>
+	<body>
+		<h1>Hello!!! ^w^</h1>
+		<span class="test"><div id="clock"></div></span>
+		<h2>Corvid species found in Poland</h2>
+
+		<div class="flex-container">
+			<div><img src="./western_jackdaw.jpg" alt="Image of a western jackdaw" class="img"></div>
+			<div><img src="./common_raven.jpg" alt="Image of a western jackdaw" class="img"></div>
+			<div><img src="./hooded_crow.jpg" alt="Image of a western jackdaw" class="img"></div>
+		</div>
+
+		<!-- <p><details>
+			<summary>Hooded crow</summary>
+			<img src="./hooded_crow.jpg" class="img" />
+		</details></p> -->
+		
+		<ul>
+			<li>Common raven (<span class=divSc>Corvus corax</span>)</li>
+			<li>Eurasian jay (<span class=divSc>Garrulus glandarius</span>)</li>
+			<li>Eurasian magpie (<span class=divSc>Pica pica)</span></li>
+			<li>Hooded crow (<span class=divSc>Corvus cornix</span>)</li>
+			<li>Rook (<span class=divSc>Corvus frugilegus</span>)</li>
+			<li>Spotted nutcracker (<span class=divSc>Nucifraga caryocatactes</span>)</li>
+			<li>Western jackdaw (<span class=divSc>Coloeus monedula</span>)</li>
+		</ul>
+
+		<h2>Size comparison</h2>
+		<ol>
+			<li>Common raven: 54-71 cm; 116-135 cm</li>
+			<li>Eurasian jay: 34-35 cm; 52-58 cm</li>
+			<li>Eurasian magpie: 44-46 cm; 52-62 cm</li>
+			<li>Hooded crow: 48-52 cm; 105 cm</li>
+			<li>Rook: 44-46 cm; 81-99 cm</li>
+			<li>Spotted nutcracker: 32-38 cm; 49-53 cm</li>
+			<li>Western jackdaw: 34-39 cm; 67-74 cm</li>
+		</ol>	
+
+		<h2>Fun fact #1</h2>
+		<p><strong>Corvids</strong> are very cool.</p>
+
+		<h2>Fun fact #2</h2>
+		<p><strong>Corvids</strong> are also highly intelligent.</p>
+
+		<h2>Fun fact #3</h2>
+		<p><strong>Corvids</strong> are capable of recognizing human faces!</p>
+
+		<h2>Fun fact #4</h2>
+		<p><strong>Corvids</strong> can solve puzzles!</p>
+
+		<h2>Fun fact #5</h2>
+		<p><strong>Corvids</strong> show empathy and grief.</p>
+
+		<h2>Fun fact #6</h2>
+		<p><strong>Corvids</strong> are super cool and fun and awesome!!1</p>
+
+		<br><br>
+
+	</body>
+</html>
