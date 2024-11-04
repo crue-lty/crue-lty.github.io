@@ -1,6 +1,10 @@
 body {
     background-color: grey;
     color: black;
-    width: fit-content;
+    font-family: 'Courier New', Courier, monospace;
     text-overflow: ellipsis;
+    width: fit-content;
+}
+h1 {
+    font-style: italic;
 }
