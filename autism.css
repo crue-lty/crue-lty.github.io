@@ -7,6 +7,11 @@ body {
 div div {
     text-align: center;
 }
+img {
+    border-color: #2a0e3d;
+    border-style: solid;
+    border-radius: 10px;
+}
 .picture {
     width: 500px;
 }
@@ -23,16 +28,18 @@ div div {
 @keyframes example {
     0%   {background-color: red;}
     25%  {background-color: yellow;}
-    50%  {background-color: blue;}
-    75% {background-color: green;}
+    50%  {background-color: greenyellow;}
+    75%  {background-color: blue;}
 }
   
 /* The element to apply the animation to */
 .example_div {
-    width: 100px;
-    height: 100px;
-    background-color: red;
+    text-align: center;
     animation-name: example;
     animation-duration: 10s;
     animation-iteration-count: infinite;
+    background-color: red;
+    color: black;
+    height: 100px;
+    width: 100px;
 } 
