@@ -1,0 +1,35 @@
+body {
+    background-attachment: fixed;
+    background-image: linear-gradient(#441166, magenta);
+    color: #c2c1f7;
+    font-family: 'Courier New', Courier, monospace;
+}
+.picture {
+    width: 500px;
+}
+.obrót {
+    animation-duration: 5s;
+    animation-name: example;
+    transform: rotate(60deg);
+    width: 500px;
+}
+
+
+/* ---------------------------------------------------------- */
+/* The animation code */
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    75% {background-color: green;}
+}
+  
+/* The element to apply the animation to */
+.example_div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+} 

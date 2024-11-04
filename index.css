@@ -1,4 +1,9 @@
 body {
-    background-color: orange orangered;
-    color: #1f0e01
+    background-attachment: fixed;
+    background-image: linear-gradient(blueviolet, skyblue);
+    color: #c2c1f7;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+    font-style: italic;
 }
