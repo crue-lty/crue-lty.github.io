@@ -10,7 +10,7 @@ a:link {
     text-decoration: none;
 }
 a:visited {
-    background-color: #6192a5;
+    background-color: transparent;
     border-color: #532075;
     color: #270f19;
 }
@@ -22,4 +22,15 @@ body {
 }
 h1 {
     font-style: italic;
+}
+.box {
+    background-color: #ffffff1f;
+    box-sizing: border-box;
+    border-style: dotted;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 300px;
 }
