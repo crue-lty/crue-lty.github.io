@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 10px;
+}
+.box {
+    border-radius: 10px 0px 0px 0px;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    width: 35%;
+    align-self: center;
+    background-color: transparent;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}

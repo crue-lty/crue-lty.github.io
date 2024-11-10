@@ -1,10 +1,10 @@
 a:link {
-    background-color: #87ceeb;
+    background-color: #c5a6fd;
     border-color: #7637a0;
     border-radius: 5px;
     border-style: solid;
-    border-width: 3px;
-    color: rgb(219, 0, 110);
+    border-width: inherit;
+    color: rgb(139, 0, 219);
     display: inline-block;
     padding: 3px;
     text-decoration: none;
@@ -17,20 +17,29 @@ a:visited {
 body {
     background-attachment: fixed;
     background-image: linear-gradient(blueviolet, skyblue);
-    color: #c2c1f7;
+    color: #e0dff8;
     font-family: 'Courier New', Courier, monospace;
+    margin: 30px;
 }
 h1 {
+    color: white;
     font-style: italic;
 }
-.box {
+.content-box {
     background-color: #ffffff1f;
-    box-sizing: border-box;
-    border-style: dotted;
     border-color: white;
-    border-width: 1px;
     border-radius: 10px;
+    border-style: dotted;
+    border-width: 1px;
+    box-sizing: border-box;
+    margin: 3px;
     padding-left: 20px;
     padding-right: 20px;
-    width: 300px;
+    padding-top: 0px;
+    text-align: center;
+    width: 40%;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;    
 }
